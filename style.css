@@ -7,3 +7,25 @@
 body {
   font-family: 'Noto-Sans';
 }
+
+button {
+  cursor: pointer;
+}
+
+/* Top Bar */
+
+.top-bar {
+  display: flex;
+}
+
+button.nav .close {
+  display: none;
+}
+
+.logo {
+  display: flex;
+}
+
+nav {
+  display: none;
+}
